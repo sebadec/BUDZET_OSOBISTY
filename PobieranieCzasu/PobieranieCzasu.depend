@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1628020150 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\pobieranieczasu\main.cpp
+	<iostream>
+	<windows.h>
+	<winbase.h>
+	<ctime>
+	<cstdio>
+

@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1627823797 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\markup-test\main.cpp
+	<iostream>
+	"Markup.h"
+
+4293264394 c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\markup-test\markup.h
+	<stdlib.h>
+	<string.h>
+	<string>
+	<afx.h>
+
+1627848352 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\markup-test 2 load\main.cpp
+	<iostream>
+	"Markup.h"
+
+4293264394 c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\markup-test 2 load\markup.h
+	<stdlib.h>
+	<string.h>
+	<string>
+	<afx.h>
+
