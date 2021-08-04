@@ -1,2 +1,2 @@
-# BUDZET_OSOBITY
+# BUDZET_OSOBISTY
 Planujemy finanse!
