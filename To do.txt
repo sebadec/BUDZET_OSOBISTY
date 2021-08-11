@@ -1,0 +1,13 @@
+1. Na początku naucz się pracować na plikach xml korzystając z jak najprostszych przykładów i stopniowo je rozbudowuj do naszych przykładów. Naucz się wyciągać datę i kwotę z pliku xml.
+
+2. Opanuj również operacje na datach. Dowiedz się jak zdobywać dzisiejszą datę. 
+
+3. Obliczać to ile ma dni obecny miesiąc. Przemyśl jak obliczyć daty dotyczące poprzedniego miesiąca.
+
+4. Przemyśl to jak porównywać daty miedzy sobą. Napisz funkcję porównującą daty.ca.
+
+5. Następnie napisz plan  całego interfejsu w programie FreeMind.
+
+6. Stwórz również plan wszystkich klas, metod i atrybutów korzystając z UML’a.
+
+Kiedy wykonasz powyższe kroki, prześlij nam do konsultacji informację o tym w jaki sposób chcesz wykonywać operacje na datach, czyli jak zdobywać dzisiejszą datę, sprawdzać ile dni ma obecny miesiąc, sprawdzać czy dany rok jest rokiem przestępnym oraz jak porównywać daty między sobą. Prześlij nam również do konsultacji plan interfejsu aplikacji w programie FreeMind oraz plan wszystkich klas, metod i atrybutów zaprojektowany korzystając z UML.
