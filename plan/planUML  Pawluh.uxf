@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.3.0">
-  <zoom_level>5</zoom_level>
+  <zoom_level>7</zoom_level>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>60</x>
-      <y>550</y>
-      <w>15</w>
-      <h>45</h>
+      <x>84</x>
+      <y>567</y>
+      <w>21</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
@@ -15,12 +15,13 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>585</x>
-      <y>395</y>
-      <w>210</w>
-      <h>155</h>
+      <x>819</x>
+      <y>350</y>
+      <w>294</w>
+      <h>217</h>
     </coordinates>
     <panel_attributes>FinansMenager
+IncomesAndExpansesManager
 --
 - ID_ZALOGOWANEGO_UZYTKOWNIKA : const Intiger
 - przychody: vector &lt;Przychod&gt;
@@ -39,12 +40,13 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>135</x>
-      <y>395</y>
-      <w>170</w>
-      <h>160</h>
+      <x>189</x>
+      <y>350</y>
+      <w>238</w>
+      <h>224</h>
     </coordinates>
     <panel_attributes>UzytkonikMenager
+UserManager
 --
 - userId : Intiger
 - uzytkownicy: vector &lt;Uzytkownik&gt;
@@ -61,12 +63,13 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>345</x>
-      <y>180</y>
-      <w>210</w>
-      <h>170</h>
+      <x>483</x>
+      <y>49</y>
+      <w>294</w>
+      <h>238</h>
     </coordinates>
     <panel_attributes>BudzetOsobistyManager
+Finances
 --
 - UzytkonikMenager : uzytkownikMenager
 - BilanseMenager : bilanseMenager
@@ -88,10 +91,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>210</x>
-      <y>260</y>
-      <w>145</w>
-      <h>145</h>
+      <x>294</x>
+      <y>161</y>
+      <w>203</w>
+      <h>203</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>270.0;10.0;10.0;10.0;10.0;270.0</additional_attributes>
@@ -99,10 +102,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>550</x>
-      <y>260</y>
-      <w>145</w>
-      <h>145</h>
+      <x>770</x>
+      <y>161</y>
+      <w>203</w>
+      <h>203</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;270.0;10.0;270.0;270.0</additional_attributes>
@@ -110,10 +113,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>100</x>
-      <y>450</y>
-      <w>45</w>
-      <h>15</h>
+      <x>140</x>
+      <y>427</y>
+      <w>63</w>
+      <h>21</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>70.0;10.0;10.0;10.0</additional_attributes>
@@ -122,11 +125,12 @@
     <id>UMLClass</id>
     <coordinates>
       <x>0</x>
-      <y>395</y>
-      <w>105</w>
-      <h>160</h>
+      <y>350</y>
+      <w>147</w>
+      <h>224</h>
     </coordinates>
     <panel_attributes>User
+User
 --
 - name : String
 - surname : String
@@ -149,10 +153,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>790</x>
-      <y>450</y>
-      <w>90</w>
-      <h>15</h>
+      <x>1106</x>
+      <y>427</y>
+      <w>126</w>
+      <h>21</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;160.0;10.0</additional_attributes>
@@ -160,10 +164,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>790</x>
-      <y>320</y>
-      <w>145</w>
-      <h>50</h>
+      <x>1106</x>
+      <y>245</y>
+      <w>203</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>Przychody
 --
@@ -175,10 +179,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>960</x>
-      <y>320</y>
-      <w>145</w>
-      <h>50</h>
+      <x>1344</x>
+      <y>245</y>
+      <w>203</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>Wydatki
 --
@@ -190,12 +194,13 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>370</x>
-      <y>625</y>
-      <w>155</w>
-      <h>65</h>
+      <x>518</x>
+      <y>672</y>
+      <w>217</w>
+      <h>91</h>
     </coordinates>
     <panel_attributes>PlikTekstowy
+TextFile
 --
 NAZWA_PLIKU: const string
 --
@@ -207,10 +212,10 @@ NAZWA_PLIKU: const string
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>300</x>
-      <y>665</y>
-      <w>80</w>
-      <h>15</h>
+      <x>420</x>
+      <y>728</y>
+      <w>112</w>
+      <h>21</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>140.0;10.0;10.0;10.0</additional_attributes>
@@ -218,10 +223,10 @@ NAZWA_PLIKU: const string
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>870</x>
-      <y>395</y>
-      <w>145</w>
-      <h>155</h>
+      <x>1218</x>
+      <y>350</y>
+      <w>203</w>
+      <h>217</h>
     </coordinates>
     <panel_attributes>/Finanse/
 --
@@ -249,10 +254,10 @@ NAZWA_PLIKU: const string
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>875</x>
-      <y>365</y>
-      <w>15</w>
-      <h>40</h>
+      <x>1225</x>
+      <y>308</y>
+      <w>21</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
@@ -260,10 +265,10 @@ NAZWA_PLIKU: const string
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1000</x>
-      <y>365</y>
-      <w>15</w>
-      <h>40</h>
+      <x>1400</x>
+      <y>308</y>
+      <w>21</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
@@ -271,12 +276,13 @@ NAZWA_PLIKU: const string
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>25</x>
-      <y>585</y>
-      <w>280</w>
-      <h>105</h>
+      <x>35</x>
+      <y>616</y>
+      <w>392</w>
+      <h>147</h>
     </coordinates>
     <panel_attributes>PlikZUzytkownikami
+FileWithUsers
 --
 - NAZWA_PLIKU_Z_UZYTKOWNIKAMI : const string 
 - zamienDaneUzytkownikaNaLinieZDanymiOddzielonaPionowymiKreskami() : String
@@ -292,10 +298,10 @@ NAZWA_PLIKU: const string
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>190</x>
-      <y>550</y>
-      <w>15</w>
-      <h>45</h>
+      <x>266</x>
+      <y>567</y>
+      <w>21</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
@@ -303,10 +309,10 @@ NAZWA_PLIKU: const string
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>520</x>
-      <y>665</y>
-      <w>75</w>
-      <h>15</h>
+      <x>728</x>
+      <y>728</y>
+      <w>105</w>
+      <h>21</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;130.0;10.0</additional_attributes>
@@ -314,12 +320,14 @@ NAZWA_PLIKU: const string
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>585</x>
-      <y>570</y>
-      <w>240</w>
-      <h>170</h>
+      <x>819</x>
+      <y>595</y>
+      <w>336</w>
+      <h>238</h>
     </coordinates>
     <panel_attributes>PlikZFinansami
+FileWithIncomes
+FileWithExpenses
 --
 - NAZWA_PLIKU_Z_PRZYCHODAMI : const string 
 - NAZWA_PLIKU_Z_WYDATKAMI : const string
@@ -340,10 +348,10 @@ NAZWA_PLIKU: const string
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>370</x>
-      <y>505</y>
-      <w>155</w>
-      <h>105</h>
+      <x>518</x>
+      <y>504</y>
+      <w>217</w>
+      <h>147</h>
     </coordinates>
     <panel_attributes>MetodyPomocnicze
 --
@@ -362,10 +370,10 @@ NAZWA_PLIKU: const string
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>820</x>
-      <y>545</y>
-      <w>125</w>
-      <h>120</h>
+      <x>1148</x>
+      <y>560</y>
+      <w>175</w>
+      <h>168</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>10.0;220.0;230.0;220.0;230.0;10.0</additional_attributes>
@@ -373,10 +381,10 @@ NAZWA_PLIKU: const string
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>300</x>
-      <y>590</y>
-      <w>80</w>
-      <h>15</h>
+      <x>420</x>
+      <y>623</y>
+      <w>112</w>
+      <h>21</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;140.0;10.0</additional_attributes>
@@ -384,10 +392,10 @@ NAZWA_PLIKU: const string
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>520</x>
-      <y>590</y>
-      <w>75</w>
-      <h>15</h>
+      <x>728</x>
+      <y>623</y>
+      <w>105</w>
+      <h>21</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>130.0;10.0;10.0;10.0</additional_attributes>
@@ -395,10 +403,10 @@ NAZWA_PLIKU: const string
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>440</x>
-      <y>450</y>
-      <w>155</w>
-      <h>65</h>
+      <x>616</x>
+      <y>427</y>
+      <w>217</w>
+      <h>91</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>290.0;10.0;10.0;10.0;10.0;110.0</additional_attributes>
@@ -406,10 +414,10 @@ NAZWA_PLIKU: const string
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>690</x>
-      <y>545</y>
-      <w>15</w>
-      <h>35</h>
+      <x>966</x>
+      <y>560</y>
+      <w>21</w>
+      <h>49</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
