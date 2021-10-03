@@ -13,12 +13,12 @@ void BudzetOsobistyManager::wypiszWszystkichUzytkownikow()
 void BudzetOsobistyManager::logowanieUzytkownika()
 {
     uzytkownikMenager.logowanieUzytkownika();
-    /*
+
     if (uzytkownikMenager.czyUzytkownikJestZalogowany())
     {
-        finanseMenager = new AdresatMenager(NAZWA_PLIKU_Z_ADRESATAMI,uzytkownikMenager.pobierzIdZalogowanegoUzytkownika());
+        finanseMenager = new FinanseMenager(NAZWA_PLIKU_Z_PRZYCHODAMI, NAZWA_PLIKU_Z_WYDATKAMI, uzytkownikMenager.pobierzIdZalogowanegoUzytkownika());
     }
-    */
+
 }
 
 void BudzetOsobistyManager::zmianaHaslaZalogowanegoUzytkownika()
@@ -45,8 +45,8 @@ void BudzetOsobistyManager::dodajAdresata()
     else
         */
     {
-    cout << "Pierw sie zaloguj" << endl;
-    system("pause");
+        cout << "Pierw sie zaloguj" << endl;
+        system("pause");
     }
 }
 
@@ -64,4 +64,29 @@ bool BudzetOsobistyManager::czyUzytkownikJestZalogowany()
 void BudzetOsobistyManager::wyswietlWszytskichAdresatow()
 {
     finanseMenager->wyswietlWszytskichAdresatow();
+}
+
+void BudzetOsobistyManager::dodajPrzychod()
+{
+
+}
+
+void BudzetOsobistyManager::dodajWydatek()
+{
+
+}
+
+void BudzetOsobistyManager::bilansZBiezacegoMiesiaca()
+{
+
+}
+
+void BudzetOsobistyManager::wczytajBilansZPoprzedniegoMiesiaca()
+{
+
+}
+
+void BudzetOsobistyManager::wczytajBilansZWybranegoOkresu()
+{
+
 }
