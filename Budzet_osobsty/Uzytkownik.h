@@ -7,19 +7,15 @@ using namespace std;
 
 class Uzytkownik
 {
-    int uzytkownikId;
-    string imie, nazwisko, login, haslo;
+    int id;
+    string login, haslo;
 
 public:
-    void ustawUzytkownikId (int noweUzytkownikId);
-    void ustawImie (string noweImie);
-    void ustawNazwisko (string noweNazwisko);
+    void ustawId (int noweId);
     void ustawLogin (string nowyLogin);
     void ustawHaslo (string noweHaslo);
 
-    int pobierzUzytkownikId();
-    string pobierzImie();
-    string pobierzNazwisko();
+    int pobierzId();
     string pobierzLogin();
     string pobierzHaslo();
 };

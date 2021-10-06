@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "BudzetOsobistyManager.h"
+#include "KsiazkaAdresowa.h"
 
 using namespace std;
 
@@ -8,13 +8,13 @@ int main()
 {
     char wybor;
 
-    BudzetOsobistyManager budzetOsobistyMenager("Uzytkownicy.txt", "Przychody.txt", "Wydatki.txt");
+    KsiazkaAdresowa ksiazkaAdresowa("Uzytkownicy.txt", "Adresaci.txt");
 
-    budzetOsobistyMenager.wypiszWszystkichUzytkownikow();
+    ksiazkaAdresowa.wypiszWszystkichUzytkownikow();
 
     while (true)
     {
-        if (budzetOsobistyMenager.czyUzytkownikJestZalogowany() == false)
+        if (ksiazkaAdresowa.czyUzytkownikJestZalogowany() == false)
         {
             wybor = MetodyPomocnicze::wybierzOpcjeZMenuGlownego();
 
@@ -22,12 +22,12 @@ int main()
             {
             case '1':
                 cin.sync();
-                budzetOsobistyMenager.rejestracjaUzytkownika();
+                ksiazkaAdresowa.rejestracjaUzytkownika();
                 cin.sync();
                 break;
             case '2':
                 cin.sync();
-                budzetOsobistyMenager.logowanieUzytkownika();
+                ksiazkaAdresowa.logowanieUzytkownika();
                 cin.sync();
                 break;
             case '9':
@@ -46,25 +46,28 @@ int main()
             switch (wybor)
             {
             case '1':
-                budzetOsobistyMenager.dodajPrzychod();
+                ksiazkaAdresowa.dodajAdresata();
                 break;
             case '2':
-                budzetOsobistyMenager.dodajWydatek();
+                ksiazkaAdresowa.wyszukajAdresatowPoImieniu();
                 break;
             case '3':
-                budzetOsobistyMenager.bilansZBiezacegoMiesiaca();
+                ksiazkaAdresowa.wyszukajAdresatowPoNazwisku();
                 break;
             case '4':
-                budzetOsobistyMenager.wczytajBilansZPoprzedniegoMiesiaca();
+                ksiazkaAdresowa.wyswietlWszytskichAdresatow();
                 break;
             case '5':
-                budzetOsobistyMenager.wczytajBilansZWybranegoOkresu();
+                ksiazkaAdresowa.usunAdresata();
                 break;
             case '6':
-                budzetOsobistyMenager.zmianaHaslaZalogowanegoUzytkownika();
+                ksiazkaAdresowa.edytujAdresata();
                 break;
             case '7':
-                budzetOsobistyMenager.wylogowanieUzytkownika();
+                ksiazkaAdresowa.zmianaHaslaZalogowanegoUzytkownika();
+                break;
+            case '8':
+                ksiazkaAdresowa.wylogowanieUzytkownika();
                 break;
             }
         }

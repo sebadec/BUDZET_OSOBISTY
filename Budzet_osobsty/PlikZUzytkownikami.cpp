@@ -37,11 +37,9 @@ bool PlikZUzytkownikami::czyPlikJestPusty()
 string PlikZUzytkownikami::zamienDaneUzytkownikaNaLinieZDanymiOddzielonaPionowymiKreskami(Uzytkownik uzytkownik)
 {
     string liniaZDanymiUzytkownika = "";
-    liniaZDanymiUzytkownika += MetodyPomocnicze::konwerjsaIntNaString(uzytkownik.pobierzUzytkownikId())+ '|';
+    liniaZDanymiUzytkownika += MetodyPomocnicze::konwerjsaIntNaString(uzytkownik.pobierzId())+ '|';
     liniaZDanymiUzytkownika += uzytkownik.pobierzLogin() + '|';
     liniaZDanymiUzytkownika += uzytkownik.pobierzHaslo() + '|';
-    liniaZDanymiUzytkownika += uzytkownik.pobierzImie() + '|';
-    liniaZDanymiUzytkownika += uzytkownik.pobierzNazwisko() + '|';
 
     return liniaZDanymiUzytkownika;
 }
@@ -85,7 +83,7 @@ Uzytkownik PlikZUzytkownikami::pobierzDaneUzytkownika(string daneJednegoUzytkown
             switch(numerPojedynczejDanejUzytkownika)
             {
             case 1:
-                uzytkownik.ustawUzytkownikId(atoi(pojedynczaDanaUzytkownika.c_str()));
+                uzytkownik.ustawId(atoi(pojedynczaDanaUzytkownika.c_str()));
                 break;
             case 2:
                 uzytkownik.ustawLogin(pojedynczaDanaUzytkownika);

@@ -29,14 +29,12 @@ public:
         uzytkownicy = plikZUzytkownikami.wczytajUzytkownikowZPliku();
     }
     void rejestracjaUzytkownika();
+    void wypiszWszytskichUzytkownikow();
     void logowanieUzytkownika();
     void zmianaHaslaZalogowanegoUzytkownikaUM();
     void wylogowanieUzytkownikaUM();
-    int pobierzIdZalogowanegoUzytkownika();
-
-    //czasowe
-    void wypiszWszytskichUzytkownikow();
     bool czyUzytkownikJestZalogowany();
+    int pobierzIdZalogowanegoUzytkownika();
 
 };
 

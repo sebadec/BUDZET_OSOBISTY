@@ -15,7 +15,7 @@ Uzytkownik UzytkonikMenager::podajDaneNowegoUzytkownika()
 {
     Uzytkownik uzytkownik;
 
-    uzytkownik.ustawUzytkownikId(pobierzIdNowegoUzytkownika());
+    uzytkownik.ustawId(pobierzIdNowegoUzytkownika());
 
     string login;
     do
@@ -30,16 +30,6 @@ Uzytkownik UzytkonikMenager::podajDaneNowegoUzytkownika()
     cin >> haslo;
     uzytkownik.ustawHaslo(haslo);
 
-    string imie;
-    cout << "Podaj imie: ";
-    cin >> imie;
-    uzytkownik.ustawImie(imie);
-
-    string nazwistko;
-    cout << "Podaj nazwisko: ";
-    cin >> nazwistko;
-    uzytkownik.ustawNazwisko(nazwistko);
-
     return uzytkownik;
 }
 
@@ -48,7 +38,7 @@ int UzytkonikMenager::pobierzIdNowegoUzytkownika()
     if (uzytkownicy.empty() == true)
         return 1;
     else
-        return uzytkownicy.back().pobierzUzytkownikId() + 1;
+        return uzytkownicy.back().pobierzId() + 1;
 }
 
 bool UzytkonikMenager::czyIstniejeLogin(string login)
@@ -68,7 +58,7 @@ void UzytkonikMenager::wypiszWszytskichUzytkownikow()
 {
     for (int i = 0; i < uzytkownicy.size(); i++)
     {
-        cout << uzytkownicy[i].pobierzUzytkownikId() << endl;
+        cout << uzytkownicy[i].pobierzId() << endl;
         cout << uzytkownicy[i].pobierzLogin() << endl;
         cout << uzytkownicy[i].pobierzHaslo() << endl;
     }
@@ -94,7 +84,7 @@ void UzytkonikMenager::logowanieUzytkownika()
 
                 if (itr -> Uzytkownik::pobierzHaslo() == haslo)
                 {
-                    idZalogowanegoUzytkownika = itr -> Uzytkownik::pobierzUzytkownikId();
+                    idZalogowanegoUzytkownika = itr -> Uzytkownik::pobierzId();
                     cout << endl << "Zalogowales sie." << endl << endl;
                     system("pause");
                     return;
@@ -119,7 +109,7 @@ void UzytkonikMenager::zmianaHaslaZalogowanegoUzytkownikaUM()
 
     for (vector <Uzytkownik>::iterator itr = uzytkownicy.begin(); itr != uzytkownicy.end(); itr++)
     {
-        if (itr -> Uzytkownik::pobierzUzytkownikId() == idZalogowanegoUzytkownika)
+        if (itr -> Uzytkownik::pobierzId() == idZalogowanegoUzytkownika)
         {
             itr -> Uzytkownik::ustawHaslo(noweHaslo);
             cout << "Haslo zostalo zmienione." << endl << endl;
