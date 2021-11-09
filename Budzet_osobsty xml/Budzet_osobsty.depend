@@ -1,0 +1,705 @@
+# depslib dependency file v1.0
+1634473578 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty\main.cpp
+	<iostream>
+	"BudzetOsobistyManager.h"
+
+1633876100 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty\budzetosobistymanager.cpp
+	"BudzetOsobistyManager.h"
+
+1634987640 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty\finanse.cpp
+	"Finanse.h"
+
+1629534269 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty\finansmenager.cpp
+
+1635185636 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty\metodypomocnicze.cpp
+	"MetodyPomocnicze.h"
+
+1633727538 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty\pliktekstowy.cpp
+	"PlikTekstowy.h"
+
+1633727539 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty\plikzfinansami.cpp
+	"PlikZFinansami.h"
+
+1633727539 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty\plikzuzytkownikami.cpp
+	"PlikZUzytkownikami.h"
+
+1634070701 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty\przychody.cpp
+	"Przychody.h"
+
+1634104032 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty\uzytkonikmenager.cpp
+	"UzytkonikMenager.h"
+
+1633727539 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty\wydatki.cpp
+	"Wydatki.h"
+
+1629611375 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty\user.cpp
+	"User.h"
+
+1629611219 c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty\user.h
+	<iostream>
+
+1635182629 c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty\metodypomocnicze.h
+	<iostream>
+	<sstream>
+	<string>
+	<windows.h>
+	<winbase.h>
+	<ctime>
+	<cstdio>
+	"PlikTekstowy.h"
+
+1633678880 source:c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty\budzetosobistymanager.cpp
+	"BudzetOsobistyManager.h"
+
+1633678880 source:c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty\finanse.cpp
+	"Finanse.h"
+
+1633678880 source:c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty\main.cpp
+	<iostream>
+	"BudzetOsobistyManager.h"
+
+1633678880 source:c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty\markup.cpp
+	<stdio.h>
+	"Markup.h"
+	<errno.h>
+	<iconv.h>
+	<windows.h>
+	<mbstring.h>
+
+1633678880 c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty\markup.h
+	<stdlib.h>
+	<string.h>
+	<string>
+	<afx.h>
+
+1633678880 source:c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty\metodypomocnicze.cpp
+	"MetodyPomocnicze.h"
+
+1633678880 c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty\metodypomocnicze.h
+	<iostream>
+	<sstream>
+	<string>
+
+1633678880 source:c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty\pliktekstowy.cpp
+	"PlikTekstowy.h"
+
+1633678880 source:c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty\plikzfinansami.cpp
+	"PlikZFinansami.h"
+
+1633678880 source:c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty\plikzuzytkownikami.cpp
+	"PlikZUzytkownikami.h"
+
+1633678880 source:c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty\przychody.cpp
+	"Przychody.h"
+
+1633678880 source:c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty\uzytkonikmenager.cpp
+	"UzytkonikMenager.h"
+
+1633678880 c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty\uzytkonikmenager.h
+	<iostream>
+	<vector>
+	<windows.h>
+	<fstream>
+	<sstream>
+	"Uzytkownik.h"
+	"PlikZUzytkownikami.h"
+
+1633678880 c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty\plikzuzytkownikami.h
+	<iostream>
+	<vector>
+	<fstream>
+	<cstdlib>
+	"Uzytkownik.h"
+	"MetodyPomocnicze.h"
+
+1633678880 source:c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty\wydatki.cpp
+	"Wydatki.h"
+
+1633678999 source:c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty\finansemenager.cpp
+	"FinanseMenager.h"
+
+1633678880 source:c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty\uzytkownik.cpp
+	"Uzytkownik.h"
+
+1633678880 c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty\uzytkownik.h
+	<iostream>
+
+1634993201 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty\finansemenager.cpp
+	"FinanseMenager.h"
+
+1633727538 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty\markup.cpp
+	<stdio.h>
+	"Markup.h"
+	<errno.h>
+	<iconv.h>
+	<windows.h>
+	<mbstring.h>
+
+1633727538 c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty\markup.h
+	<stdlib.h>
+	<string.h>
+	<string>
+	<afx.h>
+
+1633727539 c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty\plikzuzytkownikami.h
+	<iostream>
+	<vector>
+	<fstream>
+	<cstdlib>
+	"Uzytkownik.h"
+	"MetodyPomocnicze.h"
+
+1633727539 c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty\uzytkownik.h
+	<iostream>
+
+1633727539 c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty\uzytkonikmenager.h
+	<iostream>
+	<vector>
+	<windows.h>
+	<fstream>
+	<sstream>
+	"Uzytkownik.h"
+	"PlikZUzytkownikami.h"
+
+1633727539 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty\uzytkownik.cpp
+	"Uzytkownik.h"
+
+1634058969 c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty\budzetosobistymanager.h
+	<iostream>
+	"UzytkonikMenager.h"
+	"FinanseMenager.h"
+
+1634104188 c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty\finansemenager.h
+	<iostream>
+	<vector>
+	<windows.h>
+	<fstream>
+	<sstream>
+	"Finanse.h"
+	"PlikZFinansami.h"
+	"MetodyPomocnicze.h"
+	"Przychody.h"
+	"Wydatki.h"
+	"PlikZPrzychodami.h"
+	"PlikZWydatkami.h"
+
+1634987640 c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty\finanse.h
+	<iostream>
+
+1633727539 c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty\plikzfinansami.h
+	<iostream>
+	<vector>
+	<fstream>
+	<cstdlib>
+	"Finanse.h"
+	"UzytkonikMenager.h"
+	"MetodyPomocnicze.h"
+	"PlikTekstowy.h"
+
+1633727538 c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty\pliktekstowy.h
+	<iostream>
+	<fstream>
+
+1634070701 c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty\przychody.h
+	<iostream>
+	"Finanse.h"
+
+1633598094 source:c:\users\sdec\desktop\budzet osobity\budzet_osobsty\finanse.cpp
+
+1633598094 source:c:\users\sdec\desktop\budzet osobity\budzet_osobsty\markup.cpp
+	<stdio.h>
+	"Markup.h"
+	<errno.h>
+	<iconv.h>
+	<windows.h>
+	<mbstring.h>
+
+1633598094 c:\users\sdec\desktop\budzet osobity\budzet_osobsty\markup.h
+	<stdlib.h>
+	<string.h>
+	<string>
+	<afx.h>
+
+1633598094 source:c:\users\sdec\desktop\budzet osobity\budzet_osobsty\metodypomocnicze.cpp
+	"MetodyPomocnicze.h"
+
+1633598095 c:\users\sdec\desktop\budzet osobity\budzet_osobsty\metodypomocnicze.h
+	<iostream>
+	<sstream>
+	<string>
+
+1633598095 source:c:\users\sdec\desktop\budzet osobity\budzet_osobsty\pliktekstowy.cpp
+	"PlikTekstowy.h"
+
+1633598095 c:\users\sdec\desktop\budzet osobity\budzet_osobsty\pliktekstowy.h
+	<iostream>
+	<fstream>
+
+1633598095 source:c:\users\sdec\desktop\budzet osobity\budzet_osobsty\plikzfinansami.cpp
+	"PlikZFinansami.h"
+
+1633598095 c:\users\sdec\desktop\budzet osobity\budzet_osobsty\plikzfinansami.h
+	<iostream>
+	<vector>
+	<fstream>
+	<cstdlib>
+	"Finanse.h"
+	"UzytkonikMenager.h"
+	"MetodyPomocnicze.h"
+	"PlikTekstowy.h"
+
+1633598094 c:\users\sdec\desktop\budzet osobity\budzet_osobsty\finanse.h
+	<iostream>
+
+1633598095 c:\users\sdec\desktop\budzet osobity\budzet_osobsty\uzytkonikmenager.h
+	<iostream>
+	<vector>
+	<windows.h>
+	<fstream>
+	<sstream>
+	"Uzytkownik.h"
+	"PlikZUzytkownikami.h"
+
+1633598096 c:\users\sdec\desktop\budzet osobity\budzet_osobsty\uzytkownik.h
+	<iostream>
+
+1633598095 c:\users\sdec\desktop\budzet osobity\budzet_osobsty\plikzuzytkownikami.h
+	<iostream>
+	<vector>
+	<fstream>
+	<cstdlib>
+	"Uzytkownik.h"
+	"MetodyPomocnicze.h"
+
+1633598095 source:c:\users\sdec\desktop\budzet osobity\budzet_osobsty\plikzuzytkownikami.cpp
+	"PlikZUzytkownikami.h"
+
+1633598095 source:c:\users\sdec\desktop\budzet osobity\budzet_osobsty\przychody.cpp
+	"Przychody.h"
+
+1633598095 c:\users\sdec\desktop\budzet osobity\budzet_osobsty\przychody.h
+	<iostream>
+	"Finanse.h"
+
+1633598095 source:c:\users\sdec\desktop\budzet osobity\budzet_osobsty\uzytkonikmenager.cpp
+	"UzytkonikMenager.h"
+
+1633598095 source:c:\users\sdec\desktop\budzet osobity\budzet_osobsty\uzytkownik.cpp
+	"Uzytkownik.h"
+
+1633598096 source:c:\users\sdec\desktop\budzet osobity\budzet_osobsty\wydatki.cpp
+
+1633678880 c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty\plikzfinansami.h
+	<iostream>
+	<vector>
+	<fstream>
+	<cstdlib>
+	"Finanse.h"
+	"UzytkonikMenager.h"
+	"MetodyPomocnicze.h"
+	"PlikTekstowy.h"
+
+1633678880 c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty\finanse.h
+	<iostream>
+
+1633678880 c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty\pliktekstowy.h
+	<iostream>
+	<fstream>
+
+1633678880 c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty\przychody.h
+	<iostream>
+	"Finanse.h"
+
+1633678880 c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty\wydatki.h
+	<iostream>
+	"Finanse.h"
+
+1633678880 source:c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty\plikzprzychodami.cpp
+	"PlikZPrzychodami.h"
+
+1633678880 c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty\plikzprzychodami.h
+	<iostream>
+	<vector>
+	<fstream>
+	<cstdlib>
+	"Finanse.h"
+	"UzytkonikMenager.h"
+	"MetodyPomocnicze.h"
+	"PlikTekstowy.h"
+	"PlikZFinansami.h"
+	"Przychody.h"
+
+1633678880 source:c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty\plikzwydatkami.cpp
+	"PlikZWydatkami.h"
+
+1633678880 c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty\plikzwydatkami.h
+	<iostream>
+	<vector>
+	<fstream>
+	<cstdlib>
+	"Finanse.h"
+	"UzytkonikMenager.h"
+	"MetodyPomocnicze.h"
+	"PlikTekstowy.h"
+	"PlikZFinansami.h"
+
+1633678880 c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty\budzetosobistymanager.h
+	<iostream>
+	"UzytkonikMenager.h"
+	"FinanseMenager.h"
+
+1633678999 c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty\finansemenager.h
+	<iostream>
+	<vector>
+	<windows.h>
+	<fstream>
+	<sstream>
+	"Finanse.h"
+	"MetodyPomocnicze.h"
+	"Przychody.h"
+	"Wydatki.h"
+	"PlikZPrzychodami.h"
+	"PlikZWydatkami.h"
+
+1633727539 c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty\wydatki.h
+	<iostream>
+	"Finanse.h"
+
+1634391048 c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty\plikzprzychodami.h
+	<iostream>
+	<vector>
+	<fstream>
+	<cstdlib>
+	"Finanse.h"
+	"UzytkonikMenager.h"
+	"MetodyPomocnicze.h"
+	"PlikTekstowy.h"
+	"PlikZFinansami.h"
+	"Przychody.h"
+
+1634104130 c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty\plikzwydatkami.h
+	<iostream>
+	<vector>
+	<fstream>
+	<cstdlib>
+	"Finanse.h"
+	"UzytkonikMenager.h"
+	"MetodyPomocnicze.h"
+	"PlikTekstowy.h"
+	"PlikZFinansami.h"
+
+1634987655 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty\plikzprzychodami.cpp
+	"PlikZPrzychodami.h"
+
+1633727539 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty\plikzwydatkami.cpp
+	"PlikZWydatkami.h"
+
+1635499345 source:c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty xml\budzetosobistymanager.cpp
+	"BudzetOsobistyManager.h"
+
+1635499345 c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty xml\budzetosobistymanager.h
+	<iostream>
+	"UzytkonikMenager.h"
+	"FinanseMenager.h"
+
+1635499346 c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty xml\uzytkonikmenager.h
+	<iostream>
+	<vector>
+	<windows.h>
+	<fstream>
+	<sstream>
+	"Uzytkownik.h"
+	"PlikZUzytkownikami.h"
+
+1635499346 c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty xml\uzytkownik.h
+	<iostream>
+
+1635501758 c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty xml\plikzuzytkownikami.h
+	<iostream>
+	<vector>
+	<fstream>
+	<cstdlib>
+	"Uzytkownik.h"
+	"MetodyPomocnicze.h"
+	"Markup.h"
+
+1635499345 c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty xml\metodypomocnicze.h
+	<iostream>
+	<sstream>
+	<string>
+	<windows.h>
+	<winbase.h>
+	<ctime>
+	<cstdio>
+	"PlikTekstowy.h"
+
+1635499346 c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty xml\pliktekstowy.h
+	<iostream>
+	<fstream>
+
+1635499345 c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty xml\finansemenager.h
+	<iostream>
+	<vector>
+	<windows.h>
+	<fstream>
+	<sstream>
+	"Finanse.h"
+	"PlikZFinansami.h"
+	"MetodyPomocnicze.h"
+	"Przychody.h"
+	"Wydatki.h"
+	"PlikZPrzychodami.h"
+	"PlikZWydatkami.h"
+
+1635499345 c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty xml\finanse.h
+	<iostream>
+
+1635499346 c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty xml\plikzfinansami.h
+	<iostream>
+	<vector>
+	<fstream>
+	<cstdlib>
+	"Finanse.h"
+	"UzytkonikMenager.h"
+	"MetodyPomocnicze.h"
+	"PlikTekstowy.h"
+
+1635499346 c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty xml\przychody.h
+	<iostream>
+	"Finanse.h"
+
+1635499346 c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty xml\wydatki.h
+	<iostream>
+	"Finanse.h"
+
+1635499346 c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty xml\plikzprzychodami.h
+	<iostream>
+	<vector>
+	<fstream>
+	<cstdlib>
+	"Finanse.h"
+	"UzytkonikMenager.h"
+	"MetodyPomocnicze.h"
+	"PlikTekstowy.h"
+	"PlikZFinansami.h"
+	"Przychody.h"
+
+1635499346 c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty xml\plikzwydatkami.h
+	<iostream>
+	<vector>
+	<fstream>
+	<cstdlib>
+	"Finanse.h"
+	"UzytkonikMenager.h"
+	"MetodyPomocnicze.h"
+	"PlikTekstowy.h"
+	"PlikZFinansami.h"
+
+1635499345 source:c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty xml\finanse.cpp
+	"Finanse.h"
+
+1635499345 source:c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty xml\finansemenager.cpp
+	"FinanseMenager.h"
+
+1635499345 source:c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty xml\markup.cpp
+	<stdio.h>
+	"Markup.h"
+	<errno.h>
+	<iconv.h>
+	<windows.h>
+	<mbstring.h>
+
+1635499345 c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty xml\markup.h
+	<stdlib.h>
+	<string.h>
+	<string>
+	<afx.h>
+
+1635499345 source:c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty xml\metodypomocnicze.cpp
+	"MetodyPomocnicze.h"
+
+1635499345 source:c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty xml\pliktekstowy.cpp
+	"PlikTekstowy.h"
+
+1635499346 source:c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty xml\plikzfinansami.cpp
+	"PlikZFinansami.h"
+
+1635514509 source:c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty xml\plikzprzychodami.cpp
+	"PlikZPrzychodami.h"
+
+1635513842 source:c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty xml\plikzuzytkownikami.cpp
+	"PlikZUzytkownikami.h"
+
+1635499346 source:c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty xml\plikzwydatkami.cpp
+	"PlikZWydatkami.h"
+
+1635499346 source:c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty xml\przychody.cpp
+	"Przychody.h"
+
+1635499346 source:c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty xml\uzytkonikmenager.cpp
+	"UzytkonikMenager.h"
+
+1635499346 source:c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty xml\uzytkownik.cpp
+	"Uzytkownik.h"
+
+1635499346 source:c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty xml\wydatki.cpp
+	"Wydatki.h"
+
+1635500768 source:c:\users\sdec\desktop\c++\budzet osobity\budzet_osobsty xml\main.cpp
+	<iostream>
+	"BudzetOsobistyManager.h"
+
+1636484286 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty xml\budzetosobistymanager.cpp
+	"BudzetOsobistyManager.h"
+
+1636484348 c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty xml\budzetosobistymanager.h
+	<iostream>
+	"UzytkonikMenager.h"
+	"FinanseMenager.h"
+
+1636484243 c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty xml\uzytkonikmenager.h
+	<iostream>
+	<vector>
+	<windows.h>
+	<fstream>
+	<sstream>
+	"Uzytkownik.h"
+	"PlikZUzytkownikami.h"
+
+1635495748 c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty xml\uzytkownik.h
+	<iostream>
+
+1636485008 c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty xml\plikzuzytkownikami.h
+	<iostream>
+	<vector>
+	<fstream>
+	<cstdlib>
+	"Uzytkownik.h"
+	"MetodyPomocnicze.h"
+	"Markup.h"
+
+1636484243 c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty xml\metodypomocnicze.h
+	<iostream>
+	<sstream>
+	<string>
+	<windows.h>
+	<winbase.h>
+	<ctime>
+	<cstdio>
+	"PlikTekstowy.h"
+
+1636308637 c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty xml\pliktekstowy.h
+	<iostream>
+	<fstream>
+
+1635495746 c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty xml\markup.h
+	<stdlib.h>
+	<string.h>
+	<string>
+	<afx.h>
+
+1636484590 c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty xml\finansemenager.h
+	<iostream>
+	<vector>
+	<windows.h>
+	<fstream>
+	<sstream>
+	<algorithm>
+	"Finanse.h"
+	"MetodyPomocnicze.h"
+	"Przychody.h"
+	"Wydatki.h"
+	"PlikZPrzychodami.h"
+	"PlikZWydatkami.h"
+
+1636484691 c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty xml\finanse.h
+	<iostream>
+
+1636296053 c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty xml\plikzfinansami.h
+	<iostream>
+	<vector>
+	<fstream>
+	<cstdlib>
+	"Finanse.h"
+	"UzytkonikMenager.h"
+	"MetodyPomocnicze.h"
+	"PlikTekstowy.h"
+
+1636485142 c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty xml\przychody.h
+	<iostream>
+	"Finanse.h"
+
+1636485142 c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty xml\wydatki.h
+	<iostream>
+	"Finanse.h"
+
+1636484899 c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty xml\plikzprzychodami.h
+	<iostream>
+	<vector>
+	<fstream>
+	<cstdlib>
+	"Finanse.h"
+	"UzytkonikMenager.h"
+	"MetodyPomocnicze.h"
+	"PlikTekstowy.h"
+	"Przychody.h"
+
+1636484899 c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty xml\plikzwydatkami.h
+	<iostream>
+	<vector>
+	<fstream>
+	<cstdlib>
+	"Finanse.h"
+	"UzytkonikMenager.h"
+	"MetodyPomocnicze.h"
+	"PlikTekstowy.h"
+	"Wydatki.h"
+
+1635757563 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty xml\finanse.cpp
+	"Finanse.h"
+
+1636488044 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty xml\finansemenager.cpp
+	"FinanseMenager.h"
+
+1636484398 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty xml\main.cpp
+	<iostream>
+	"BudzetOsobistyManager.h"
+
+1635495746 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty xml\markup.cpp
+	<stdio.h>
+	"Markup.h"
+	<errno.h>
+	<iconv.h>
+	<windows.h>
+	<mbstring.h>
+
+1636484243 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty xml\metodypomocnicze.cpp
+	"MetodyPomocnicze.h"
+
+1636308637 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty xml\pliktekstowy.cpp
+	"PlikTekstowy.h"
+
+1636296018 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty xml\plikzfinansami.cpp
+	"PlikZFinansami.h"
+
+1636487074 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty xml\plikzprzychodami.cpp
+	"PlikZPrzychodami.h"
+
+1636484243 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty xml\plikzuzytkownikami.cpp
+	"PlikZUzytkownikami.h"
+
+1636487726 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty xml\plikzwydatkami.cpp
+	"PlikZWydatkami.h"
+
+1636483447 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty xml\przychody.cpp
+	"Przychody.h"
+
+1636484243 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty xml\uzytkonikmenager.cpp
+	"UzytkonikMenager.h"
+
+1635495748 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty xml\uzytkownik.cpp
+	"Uzytkownik.h"
+
+1636137155 source:c:\users\jan kowalski\desktop\projekt informatyczny - pasja informatyki\opp object-oriented programming\budzet osobity\budzet_osobsty xml\wydatki.cpp
+	"Wydatki.h"
+
