@@ -288,7 +288,7 @@ int MetodyPomocnicze::konwersjaRokMiesiacDzienStringNaRokMiesiacDzienInt(string 
 
     Rok = RokMiesiacDzienString.substr(0,4);
     Miesiac = RokMiesiacDzienString.substr(5,2);
-    Miesiac = RokMiesiacDzienString.substr(8,2);
+    Dzien = RokMiesiacDzienString.substr(8,2);
     RokMiesiacDzien = Rok + Miesiac + Dzien;
 
     RokMiesiacDzienInt = konwersjaStringNaInt(RokMiesiacDzien);
